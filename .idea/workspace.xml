@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59b0dcab-48db-4b98-9db2-4cd090c8bdbc" name="Changes" comment="" />
+    <list default="true" id="59b0dcab-48db-4b98-9db2-4cd090c8bdbc" name="Changes" comment="add UserController class which violates single responsibility principle">
+      <change afterPath="$PROJECT_DIR$/src/single_responsibility/bad_design/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/single_responsibility/bad_design/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/single_responsibility/bad_design/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/single_responsibility/bad_design/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solid-principles-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/solid-principles-java.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GldGH2lWWEnISx6yMWsUf88y3C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,10 +44,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.single_responsibility.bad_design.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="solid-principles-java" />
@@ -30,8 +59,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="single_responsibility.bad_design.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="single_responsibility.bad_design.Main" />
+      <module name="solid-principles-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="single_responsibility.bad_design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.single_responsibility.bad_design.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -39,11 +82,40 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="59b0dcab-48db-4b98-9db2-4cd090c8bdbc" name="Changes" comment="" />
       <created>1666967009100</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666967009100</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1666967356816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666967356816</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="add UserController class which violates single responsibility principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="add UserController class which violates single responsibility principle" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
