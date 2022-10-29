@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59b0dcab-48db-4b98-9db2-4cd090c8bdbc" name="Changes" comment="refactor code to satisfy single responsibility principle">
-      <change afterPath="$PROJECT_DIR$/src/open_closed/bad_design/CallHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open_closed/bad_design/ISPSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open_closed/bad_design/InternetSessionHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open_closed/bad_design/PhoneSubscriber.java" afterDir="false" />
+    <list default="true" id="59b0dcab-48db-4b98-9db2-4cd090c8bdbc" name="Changes" comment="add code which violates open-closed principle">
+      <change afterPath="$PROJECT_DIR$/src/open_closed/good_design/CallHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/open_closed/good_design/ISPSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/open_closed/good_design/InternetSessionHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/open_closed/good_design/PhoneSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/open_closed/good_design/Subscriber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/ayan_s27/Desktop/workspace/solid-principles-java/src/single_responsibility/good_design",
+    "last_opened_file_path": "/Users/ayan_s27/Desktop/workspace/solid-principles-java/src/open_closed/good_design",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -56,7 +57,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/open_closed/good_design" />
       <recent name="$PROJECT_DIR$/src/single_responsibility/good_design" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="open_closed.good_design" />
     </key>
   </component>
   <component name="RunManager" selected="Application.single_responsibility.good_design.Main">
@@ -131,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666980596725</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add code which violates open-closed principle">
+      <created>1667081991858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667081991858</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,7 +161,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="add UserController class which violates single responsibility principle" />
     <MESSAGE value="refactor code to satisfy single responsibility principle" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor code to satisfy single responsibility principle" />
+    <MESSAGE value="add code which violates open-closed principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="add code which violates open-closed principle" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
