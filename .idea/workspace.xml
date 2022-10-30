@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59b0dcab-48db-4b98-9db2-4cd090c8bdbc" name="Changes" comment="add code which violates open-closed principle">
-      <change afterPath="$PROJECT_DIR$/src/open_closed/good_design/CallHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open_closed/good_design/ISPSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open_closed/good_design/InternetSessionHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open_closed/good_design/PhoneSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open_closed/good_design/Subscriber.java" afterDir="false" />
+    <list default="true" id="59b0dcab-48db-4b98-9db2-4cd090c8bdbc" name="Changes" comment="refactor code to satisfy open-closed principle">
+      <change afterPath="$PROJECT_DIR$/src/liskov_substitution/bad_design/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liskov_substitution/bad_design/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liskov_substitution/bad_design/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,10 +62,24 @@
       <recent name="open_closed.good_design" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.single_responsibility.good_design.Main">
+  <component name="RunManager" selected="Application.liskov_substitution.bad_design.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="solid-principles-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="liskov_substitution.bad_design.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liskov_substitution.bad_design.Main" />
+      <module name="solid-principles-java" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liskov_substitution.bad_design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,8 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.liskov_substitution.bad_design.Main" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.single_responsibility.bad_design.Main" />
+      <item itemvalue="Application.single_responsibility.good_design.Main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.liskov_substitution.bad_design.Main" />
         <item itemvalue="Application.single_responsibility.good_design.Main" />
         <item itemvalue="Application.single_responsibility.bad_design.Main" />
         <item itemvalue="Application.Main" />
@@ -143,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667081991858</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor code to satisfy open-closed principle">
+      <created>1667083371897</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667083371897</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +188,8 @@
     <MESSAGE value="add UserController class which violates single responsibility principle" />
     <MESSAGE value="refactor code to satisfy single responsibility principle" />
     <MESSAGE value="add code which violates open-closed principle" />
-    <option name="LAST_COMMIT_MESSAGE" value="add code which violates open-closed principle" />
+    <MESSAGE value="refactor code to satisfy open-closed principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code to satisfy open-closed principle" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
