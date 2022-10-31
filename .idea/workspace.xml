@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59b0dcab-48db-4b98-9db2-4cd090c8bdbc" name="Changes" comment="add code which violates liskov substitution principle">
-      <change afterPath="$PROJECT_DIR$/src/liskov_substitution/good_design/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liskov_substitution/good_design/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liskov_substitution/good_design/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liskov_substitution/good_design/Square.java" afterDir="false" />
+    <list default="true" id="59b0dcab-48db-4b98-9db2-4cd090c8bdbc" name="Changes" comment="add code which violates interface segregation principle">
+      <change afterPath="$PROJECT_DIR$/src/interface_segregation/bad_design/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interface_segregation/bad_design/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interface_segregation/bad_design/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interface_segregation/bad_design/service/OrderPersistenceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interface_segregation/bad_design/service/PersistenceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interface_segregation/bad_design/service/UserPersistenceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667091088649</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor code to satisfy liskov substitution principle">
+      <created>1667091837263</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667091837263</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,7 +223,9 @@
     <MESSAGE value="add code which violates open-closed principle" />
     <MESSAGE value="refactor code to satisfy open-closed principle" />
     <MESSAGE value="add code which violates liskov substitution principle" />
-    <option name="LAST_COMMIT_MESSAGE" value="add code which violates liskov substitution principle" />
+    <MESSAGE value="refactor code to satisfy liskov substitution principle" />
+    <MESSAGE value="add code which violates interface segregation principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="add code which violates interface segregation principle" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
